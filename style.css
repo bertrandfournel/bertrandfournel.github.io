@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: center;
+    flex-direction: column; 
+}
+
+
+p{
+    font-size: medium;
+}
+#speak{
+    font-size: small;
+}
+
+
+#prenom{
+    color: darkgreen;
+}
+
+a{
+    color: black;
+}
+
+@media (min-width: 480px) {
+    #presentation{
+        width: 400px;
+    }
+  }
+@media (min-width: 900px) {
+    #presentation{
+        width: 500px;
+    }
+  }
+@media (min-width: 1400px) {
+    #presentation{
+        width: 600px;
+    }
+  }
